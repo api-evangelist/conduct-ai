@@ -1,8 +1,18 @@
 aid: conduct-ai
 name: Conduct AI
-description: 'Conduct AI is a company surfaced as a portfolio company of iconiq-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Conduct AI (conduct.ai) is an enterprise "AI operating system" that helps IT
+  teams understand, operate, and transform their business software, starting
+  with SAP and expanding across the wider enterprise stack. Its platform
+  analyzes custom code to reveal dependencies and system relationships
+  (Understand), automates software-development workflows from planning through
+  deployment (Operate), and accelerates system migrations such as S/4HANA with
+  automated analysis and code refactoring (Transform). The company markets
+  outcomes like faster S/4HANA migration planning, reduced manual system
+  analysis, and shorter change-implementation cycles. Conduct raised a $60M
+  Series A and is backed by ICONIQ Capital. It publishes a marketing site,
+  blog, and case studies but does not currently expose a public developer API,
+  SDKs, or API reference documentation.
 url: https://raw.githubusercontent.com/api-evangelist/conduct-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +20,30 @@ x-backed-by:
 - iconiq-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://framerusercontent.com/assets/5Lynb8KGYxKqa6vRKwEhSC51DUI.png
 tags:
 - Company
-- Ai
+- AI
+- Enterprise Software
+- SAP
+- S/4HANA
+- Legacy Modernization
+- Code Analysis
+- IT Operations
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,20 @@ maintainers:
 common:
 - type: Website
   url: https://conduct.ai/
+- type: Blog
+  url: https://conduct.ai/blog
+- type: About
+  url: https://conduct.ai/about
+- type: SignUp
+  url: https://conduct.ai/book-a-demo
+- type: TermsOfService
+  url: https://conduct.ai/legal/terms
+- type: PrivacyPolicy
+  url: https://conduct.ai/legal/privacy
+- type: DomainSecurity
+  url: security/conduct-ai-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
