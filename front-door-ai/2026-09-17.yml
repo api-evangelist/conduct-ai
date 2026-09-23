@@ -1,0 +1,25 @@
+# Front Door AI Index — conduct-ai — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: conduct-ai
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: conduct.ai
+  final_host: conduct.ai
+  ownership: own
+  owner: conduct-ai
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 9
+  host_score: 9
+  density: 8.48
+  words: 1061
+  tiers:
+    agentic: 0
+    core: 9
+    model: 0
+  ambiguous: 0
+  top_terms:
+    AI: 9
